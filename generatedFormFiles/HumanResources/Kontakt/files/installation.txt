@@ -1,0 +1,16 @@
+
+Das Formular basiert auf Bootstrap und dem PHP-Mailer, mit dem der E-Mail Versand stattfinden wird. Damit das Formular auch funktioniert, musst du diese zwei Komponenten in deine Webseite integrieren. 
+Gehe dazu wie in der Installationsanleitung beschrieben vor.
+
+Installationsanleitung:
+1. Binde Bootstrap in deine Webseite ein.Hierzu findest du unter https://getbootstrap.com/docs/5.1/getting-started/introduction/ eine Anleitung, die dir Schritt für Schritt zeigt, wie du Bootstrap in deine Webseite integrieren kannst.
+2. Downloade dir den PHP-Mailer unter https://github.com/PHPMailer/PHPMailer/archive/master.zip, benenne den Ordner in deinen gewünschten Namen um und lade diesen auf deinen FTP-Server hoch. 
+Für das Hochladen des Ordners auf den FTP-Server findest du hier eine gute Übersicht und weitere Anleitungen: https://www.html-seminar.de/online-stellen.htm
+3. Nachdem du nun den Ordner erfolgreich hochgeladen hast, musst du im Script form-php.php noch folgende Änderungen vornehmen:
+    3.1: Ändere die Pfade zu den Dateien des PHP-Mailers. Nuzte dort deinen Pfad, der direkt zu dem PHP-Mailer führt.
+    3.2: Lege unter $mailer->setFrom den Absender der E-Mail, mit Name und E-Mail Adresse, fest
+    3.3: Lege unter $mailer->Subject deinen Wunschbetreff fest.
+    3.4: Ersetzte die E-Mail-Adresse test@example.de mit der E-Mail Adresse, unter die sich deine Besucher bei einem Fehler melden können
+4. Integriere den HTML- & PHP-Code deines Formulars in deine Webseite
+            
+Nun hast du alle Installationsschritte erfolgreich ausgeführt und kannst dein Formular in deiner Webseite nutzen. :)

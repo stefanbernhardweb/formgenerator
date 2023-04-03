@@ -1,0 +1,9 @@
+
+Das Formular basiert auf Bootstrap. Damit das Formular richtig dargestellt wird, musst du Bootstrap in deine Webseite integrieren. 
+Gehe dazu wie in der Installationsanleitung beschrieben vor.
+
+Installationsanleitung:
+1. Binde Bootstrap in deine Webseite ein. Hierzu findest du unter https://getbootstrap.com/docs/5.1/getting-started/introduction/ eine Anleitung, die dir Schritt für Schritt zeigt, wie du Bootstrap in deine Webseite integrieren kannst.
+2. Integriere den HTML- & PHP-Code deines Formulars in deine Webseite
+
+Nun hast du alle Installationsschritte erfolgreich ausgeführt und kannst dein Formular in deiner Webseite nutzen. :)

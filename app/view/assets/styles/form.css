@@ -1,0 +1,67 @@
+.fa-times-circle{
+    display: none;
+}
+
+#formName{
+    padding: .2em .5em;
+    font-weight: bold;
+}
+
+.editableIcons:hover, .formField:hover, i.close:hover, .sortableIcons:hover, #mandatoryField:hover{
+    cursor: pointer;
+}
+
+.ui-state-highlight{
+    margin-top: 0.5rem !important;
+    height: 2em;
+}
+
+.popover-header{
+    background-color: rgba(13, 110, 253, 1);
+    color: white;
+    text-align: center;
+}
+
+#formName:empty::before {
+    content: 'Name';
+    color: rgba(0,0,0, .5);
+}
+
+.disabled{
+    pointer-events: none;
+    opacity: .5;
+}
+
+.editableIcons, #closePropertiesMenu .fa-times{
+    opacity: .6 !important;
+}
+
+.editableIcons:hover, #closePropertiesMenu .fa-times:hover{
+    opacity: 1 !important;
+}
+
+.sortableIcons{
+    position: absolute;
+    right: .5em;
+    top: .5em;
+}
+
+/* PropertiesMenu */
+
+#closePropertiesMenu{
+    left: .5em;
+    top: .5em; 
+}
+
+.property{
+    font-weight: 500;
+}
+
+input#label:focus, input#placeholder:focus, #mandatoryField:focus{
+    box-shadow: none !important;
+}
+
+
+
+
+
